@@ -34,13 +34,13 @@ html, body {
   position: absolute;
   left: 5%;
   top: 10px;
-  width: 80%;
+  width: 50%;
 }
 #headertext2 {
   position: absolute;
   left: 25%;
   top: 70px;
-  width: 80%;
+  width: 50%;
 }
 .imgme {
   border: 3px solid white;
@@ -160,13 +160,12 @@ html, body {
   top: 16px;
   left: 50%;
   margin-left: -25px;
-  background-color: #999999;
   z-index: 100;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
-  background-color: #9400D3;
+  background-color: #8E44AD;
 }
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
@@ -214,7 +213,7 @@ h2 {
   text-align: center;
   font-weight: 300;
   font-size: 50px;
-  padding: 30px 0px 40px;
+  padding: 30px 0px 0px;
 }
 #sitefooter {
   height: 300px;
@@ -258,7 +257,7 @@ hr.soft {
 }
 .puba {
   font-size: 18px;
-  color: #900;
+  color: #6C3483;
   /*font-weight:350;*/
 }
 .pubv {
