@@ -27,7 +27,7 @@ html, body {
   position: absolute;
   left: 13%;
   top: 140px;
-  width: 80%;
+  width: 60%;
 }
 
 #headertext1 {
@@ -246,6 +246,7 @@ hr.soft {
   }
 }
 .pubd {  
+  text-align:justify;
   font-size: 18px;
   font-weight: 300;
 }
