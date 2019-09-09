@@ -24,7 +24,6 @@
   </div>
   <div id="headertext1">
     <div id="htname">Momchil Minkov</div>
-    <div id="htdesc">Postdoc at Stanford University</div>
     <div id="htem">momchilmm(at)gmail.com</div>
   </div>
   <div id="headertext2">      
@@ -40,38 +39,123 @@
 </div>
 
 <div class="container" style="font-size:18px; font-weight:300; margin-top:50px;margin-bottom:50px;">
-  <b>Bio</b>. Some things about me 
+  <div style="text-align:justify;">I am currently a postdoc at Stanford University's EE department, in the group of prof. Shanhui Fan. I'm interested in all things photonic, but my longest-term passion has been photonic crystals. Recently, I've also become infatuated with inverse design and automatic differentiation, as well as (<i>sigh</i>) machine learning. 
+  <br> <br>
+  When I'm not squeezing Maxwell's equations simulations out of my computer, you can most probably find me at home, but if I'm not there then try on top of some mountain, or somewhere playing soccer or volleyball. 
+  </div>
 
   <h2>Selected works</h2>
-  <h4 style="text-align:center;">(See below for a full list of publications)</h4>
+  <h4 style="text-align:center;">(See a full list of publications <a href="publications/publist.pdf" target="_blank">here</a>)</h4>
   <br>
   <div id="selected_pubs">
     <div class="pubwrap">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-5">
           <div class="pubimg">
-            <img src="img/het_3D_new.png" style="width:80%">
+            <img src="img/het_3D_new.png" style="width:90%">
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-7">
           <div class="pub">
-            <div class="pubt">Visualizing and Understanding Recurrent Networks</div>
-            <div class="pubd">We study both qualitatively and quantitatively
-              the performance improvements of Recurrent Networks in Language Modeling tasks compared to finite-horizon models. Our analysis sheds light on the source of improvements
-              , and identifies areas for further potential gains. Among some fun results we find LSTM cells that keep track of long-range dependencies such as line lengths, quotes and brackets.</div>
-            <div class="puba">Andrej Karpathy*, Justin Johnson*, Li Fei-Fei</div>
-            <div class="pubv">ICLR 2016 Workshop</div>
+            <div class="pubt">Doubly-degenerate photonic crytal cavity for second-order nonlinearities</div>
+            <div class="pubd">We have designed a microscopic photonic crystal resonator that confines light at a given wavelength and at half that wavelength. This serves to strongly enhance second-order optical nonlinear frequency conversion processes, which find applications in both classical and quantum technologies. Photonic crystal cavities have always been thought of as an attractive candidate for this problem, but it turned out really hard to design a device that confines light at two different wavelengths that are so far apart from each other. I first tried to do this in 2014 and couldn't, and no one elese managed since either. Then, we recently had a breakthrough idea based on bound states in the coninuum, which allowed us to achieve the feat.</div>
+            <div> <span class="puba"><b>Momchil Minkov</b>, Dario Gerace, and Shanhui Fan</span> <span class="pubv">Optica (2019) </span></div>
             <div class="publ">
-              <ul>
-                <li><a href="http://arxiv.org/abs/1506.02078">PDF</a></li>
-                <li><a href="http://github.com/karpathy/char-rnn">Code (char-rnn)</a></li>
-                <li><a href="http://karpathy.github.io/2015/05/21/rnn-effectiveness/">Blog Post</a></li>
-              </ul>
+              <li><a href="publications/Minkov_Optica_2019.pdf">PDF</a></li>
+              <li><a href="https://news.stanford.edu/2019/08/07/light-trapping-color-converting-crystal/">News</a></li>
             </div>
           </div>
         </div>
       </div>
-    </div>
+
+      <br> <br>
+
+      <div class="row">
+        <div class="col-md-5">
+          <div class="pubimg">
+            <img src="img/RNN.png" style="width:100%">
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="pub">
+            <div class="pubt">Wave physics as an analog Recurrent Neural Network</div>
+            <div class="pubd">Analog machine learning hardware platforms promise to be faster and more energy-efficient than their digital counterparts. We have identified a mapping between the equations describing the propagation of physical waves and the computation done in recurrent neural networks. This mapping indicates that wave systems can be trained to learn complex features in temporal data, using standard training techniques like automatic differentiation. As a demonstration, we show that an inversely-designed inhomogeneous medium can perform vowel classification on raw audio data simply through wave propagation.
+            </div>
+            <div> <span class="puba">Tyler Hughes<sup>*</sup>, Ian Williamson<sup>*</sup>, <b>Momchil Minkov</b>, and Shanhui Fan</span> <span class="pubv">(under review)</span> </div>
+            <div class="publ">
+
+              <li><a href="https://arxiv.org/abs/1904.12831">arXiv</a></li>
+              <li><a href="https://github.com/fancompute/wavetorch">Code</a></li>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br> <br>
+
+      <div class="row">
+        <div class="col-md-5">
+          <div class="pubimg">
+            <img src="img/switch.png" style="width:100%">
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="pub">
+            <div class="pubt">Inverse design for nonlinear nanophotonic devices</div>
+            <div class="pubd">Inverse design is the idea of using computational optimization techniques to create devices based on certain specifications. One way to achieve this is through gradient-based optimization, which requires an efficient way of computing the gradient of an objective function with respect to a large number of degrees of freedom. In photonics, this is commonly done using the adjoint variable method (reverse-mode differentiation), but this had previously only been applied to linear devices. Here, we present an extension of this method to modeling nonlinear devices in the frequency domain, with the nonlinear response directly included in the gradient computation.
+            </div>
+            <div> <span class="puba">Tyler Hughes<sup>*</sup>, <b>Momchil Minkov</b><sup>*</sup>, Ian Williamson, and Shanhui Fan</span> <span class="pubv">ACS Photonics (2018)</span> </div>
+            <div class="publ">
+              <li><a href="http:/momchilmm.github.io/publications/Hughes_ACS-phot_2018.pdf">PDF</a></li>
+              <li><a href="https://github.com/fancompute/angler">Code</a></li>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br> <br>
+
+      <div class="row">
+        <div class="col-md-5">
+          <div class="pubimg">
+            <img src="img/zim.png" style="width:90%">
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="pub">
+            <div class="pubt">Zero-inex bound states in the continuum</div>
+            <div class="pubd">Photonic metamaterials with an effectively zero refractive index can find applications like enhanced light emission, directional transmission, cloaking, and enhanced optical nonlinearities. One particularly interesting approach for achieving such materials is using a photonic crystal slab with properly engineered photonic bands. This all-dielectric implementation eliminates the absorption losses that are significant in all other zero-index paradigms, but it still suffers from strong radiative losses. Here, we have designed the bands of a photonic crystal slab to be simultaneously zero-index and non-radiative, which could enable, for the first time, large-scale integration of zero-index materials in photonic devices. 
+            </div>
+            <div> <span class="puba"><b>Momchil Minkov</b>, Ian Williamson, Meng Xiao, and Shanhui Fan</span> <span class="pubv">Phys. Rev. Lett. (2018)</span> </div>
+            <div class="publ">
+              <li><a href="http:/momchilmm.github.io/publications/Minkov_PRL_2018.pdf">PDF</a></li>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br> <br>
+
+      <div class="row">
+        <div class="col-md-5">
+          <div class="pubimg">
+            <img src="img/ANN.png" style="width:100%">
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="pub">
+            <div class="pubt">Training of photonic neural networks through <i>in situ</i> backpropagation</div>
+            <div class="pubd">Integrated optics has gained interest as a hardware platform for implementing machine learning algorithms, since matrix-vector multiplications, which are used heavily in artificial neural networks, can be done efficiently in photonic circuits. In our work, we introduce a method that enables highly efficient, <i>in situ</i> training of a photonic neural network (as opposed to using a model on a digital computer). Essentially, we derive the photonic analogue of the backpropagation algorithm, and show how the gradients may be obtained exactly by performing intensity measurements within the device. This can enable highly efficient training of large-scale photonic neural networks.
+            </div>
+            <div> <span class="puba">Tyler Hughes<sup>*</sup>, <b>Momchil Minkov</b>, Yu Shi, and Shanhui Fan</span> <span class="pubv">Optica (2018)</span> </div>
+            <div class="publ">
+              <li><a href="http:/momchilmm.github.io/publications/Hughes_Optica_2018.pdf">PDF</a></li>
+              <li><a href="https://www.osa.org/en-us/about_osa/newsroom/news_releases/2018/researchers_move_closer_to_completely_optical_arti/">News</a></li>
+            </div>
+          </div>
+        </div>
+      </div>
+
   </div>
 
 
@@ -82,7 +166,7 @@
           <div class="timeline-badge"><i class="fa fa-newspaper-o"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">Made it on the Stanford News
+              <h4 class="timeline-title">Made it on Stanford News
               <p><font color=#8E44AD>August 2019</font></p></h4>
             </div>
             <div class="timeline-body">
@@ -145,8 +229,8 @@
           <div class="timeline-badge"><i class="fa fa-newspaper-o"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">Made it on the EPFL News
-              <p><font color=#8E44AD>August 2019</font></p></h4>
+              <h4 class="timeline-title">Made it on EPFL News
+              <p><font color=#8E44AD>June 2014</font></p></h4>
             </div>
             <div class="timeline-body">
               <p>EPFL News wrote an <a href="https://actu.epfl.ch/news/a-faster-path-to-optical-circuits/">article</a> about my work</a> </p>

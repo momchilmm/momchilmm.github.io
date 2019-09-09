@@ -27,7 +27,7 @@ html, body {
   position: absolute;
   left: 13%;
   top: 140px;
-  width: 80%;
+  width: 60%;
 }
 
 #headertext1 {
@@ -231,7 +231,7 @@ hr.soft {
   margin: 0;
 }
 .pubt {
-  font-size: 22px;
+  font-size: 20px;
   font-weight:400;
   color: #000;
 }
@@ -246,7 +246,8 @@ hr.soft {
   }
 }
 .pubd {  
-  font-size: 18px;
+  text-align:justify;
+  font-size: 16px;
   font-weight: 300;
 }
 .pubimg {
@@ -256,20 +257,22 @@ hr.soft {
   max-width: 100%;
 }
 .puba {
-  font-size: 18px;
+  font-size: 16px;
   color: #6C3483;
+  font-weight:350;
   /*font-weight:350;*/
 }
 .pubv {
   /*color: #090;*/
   font-style: italic;
-  font-size: 18px;
+  font-size: 16px;
 }
 .publ {
   padding-top: 10px;
+  font-size:16px;
 }
 .publ li {
-  border: 1px solid #CCC;
+  border: 2px solid #CCC;
   padding: 5px;
   margin: 5px 2px;
   display: inline-block;
